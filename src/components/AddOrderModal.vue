@@ -7,7 +7,7 @@
     aria-hidden="true"
     ref="modalRef"
   >
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog direction-rtl modal-lg modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="addOrderModalLabel">إضافة طلب جديد</h5>
@@ -24,7 +24,7 @@
               <label for="customerName" class="form-label">اسم العميل <span class="text-danger">*</span></label>
               <input
                 type="text"
-                class="form-control"
+                class="form-control form-control"
                 id="customerName"
                 v-model="formData.customerName"
                 required

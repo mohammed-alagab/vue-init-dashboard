@@ -104,7 +104,7 @@ onUnmounted(() => {
 }
 
 .sidebar-header {
-  padding: .5rem;
+  padding: 0.29rem .5rem  ;
   display: flex;
   justify-content: space-between;
   align-items: center;

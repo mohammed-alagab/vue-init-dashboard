@@ -10,8 +10,8 @@
 
 <script setup>
 import { computed, onMounted } from 'vue'
-import Navbar from '@/components/Navbar.vue'
-import Sidebar from '@/components/Sidebar.vue'
+import Navbar from '@/components/AppNavbar.vue'
+import Sidebar from '@/components/AppSidebar.vue'
 import { useSidebarStore } from '@/stores/sidebar'
 import { useThemeStore } from '@/stores/theme'
 
